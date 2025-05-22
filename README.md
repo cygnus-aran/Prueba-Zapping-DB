@@ -4,13 +4,7 @@ Configuración simple de base de datos SQLite con Docker para el proyecto Zappin
 
 ## Instalación
 
-1. **Crear directorio del proyecto:**
-   ```bash
-   mkdir zapping-database
-   cd zapping-database
-   ```
-
-2. **Descargar los archivos del proyecto:**
+1**Descargar los archivos del proyecto:**
     - Descarga o clona los archivos: `Dockerfile`, `docker-compose.yml`, `init.sql`
     - O cópialos en el directorio `zapping-database/`
    

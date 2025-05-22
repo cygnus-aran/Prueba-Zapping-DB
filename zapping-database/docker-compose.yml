@@ -2,7 +2,9 @@ version: '3.8'
 
 services:
   database:
-    build: ..
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: zapping-database
     volumes:
       - sqlite_data:/data
