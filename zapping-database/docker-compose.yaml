@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  database:
+    build: ..
+    container_name: zapping-database
+    volumes:
+      - sqlite_data:/data
+    ports:
+      - "8080:8080"
+
+volumes:
+  sqlite_data:
